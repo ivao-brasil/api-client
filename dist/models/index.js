@@ -23,7 +23,6 @@ __exportStar(require("./airport-status"), exports);
 __exportStar(require("./airport-weather"), exports);
 __exportStar(require("./error-response"), exports);
 __exportStar(require("./flight-plan"), exports);
-__exportStar(require("./flight-plan-inner"), exports);
 __exportStar(require("./inline-response500"), exports);
 __exportStar(require("./paginated-training-sessions"), exports);
 __exportStar(require("./preferential-route-response"), exports);

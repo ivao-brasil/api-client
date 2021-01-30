@@ -11,7 +11,6 @@ export * from './airport-status';
 export * from './airport-weather';
 export * from './error-response';
 export * from './flight-plan';
-export * from './flight-plan-inner';
 export * from './inline-response500';
 export * from './paginated-training-sessions';
 export * from './preferential-route-response';
