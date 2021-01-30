@@ -1,6 +1,6 @@
 {
   "name": "ivaobr-api-client",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "API Client for IVAO BR written in Typescript and axios",
   "author": "OpenAPI-Generator Contributors",
   "keywords": [
