@@ -1,5 +1,3 @@
-/* tslint:disable */
-/* eslint-disable */
 /**
  * IVAO Brasil
  * API pública da IVAO Brasil
@@ -11,13 +9,22 @@
  * https://github.com/swagger-api/swagger-codegen.git
  * Do not edit the class manually.
  */
-
-import { FlightPlanInner } from ".";
-
 /**
- * 
+ *
  * @export
- * @interface FlightPlan
+ * @interface AirportChartsIvaoData
  */
-export interface FlightPlan extends Array<FlightPlanInner> {
+export interface AirportChartsIvaoData {
+    /**
+     *
+     * @type {any}
+     * @memberof AirportChartsIvaoData
+     */
+    rwyConfiguration?: any;
+    /**
+     *
+     * @type {Array&lt;string&gt;}
+     * @memberof AirportChartsIvaoData
+     */
+    rmk?: any;
 }

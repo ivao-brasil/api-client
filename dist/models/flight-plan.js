@@ -1,3 +1,4 @@
+"use strict";
 /* tslint:disable */
 /* eslint-disable */
 /**
@@ -11,13 +12,4 @@
  * https://github.com/swagger-api/swagger-codegen.git
  * Do not edit the class manually.
  */
-
-import { FlightPlanInner } from ".";
-
-/**
- * 
- * @export
- * @interface FlightPlan
- */
-export interface FlightPlan extends Array<FlightPlanInner> {
-}
+Object.defineProperty(exports, "__esModule", { value: true });

@@ -1,5 +1,3 @@
-/* tslint:disable */
-/* eslint-disable */
 /**
  * IVAO Brasil
  * API pública da IVAO Brasil
@@ -11,11 +9,9 @@
  * https://github.com/swagger-api/swagger-codegen.git
  * Do not edit the class manually.
  */
-
 import { FlightPlanInner } from ".";
-
 /**
- * 
+ *
  * @export
  * @interface FlightPlan
  */
