@@ -47,6 +47,14 @@ export const TrainingScheduleApiAxiosParamCreator = function (configuration?: Co
             const localVarHeaderParameter = {} as any;
             const localVarQueryParameter = {} as any;
 
+            // authentication authentication required
+            if (configuration && configuration.apiKey) {
+                const localVarApiKeyValue = typeof configuration.apiKey === 'function'
+                    ? await configuration.apiKey("apiKey")
+                    : await configuration.apiKey;
+                localVarHeaderParameter["apiKey"] = localVarApiKeyValue;
+            }
+
             if (offset !== undefined) {
                 localVarQueryParameter['offset'] = offset;
             }
@@ -106,6 +114,14 @@ export const TrainingScheduleApiAxiosParamCreator = function (configuration?: Co
             const localVarRequestOptions = { method: 'GET', ...baseOptions, ...options};
             const localVarHeaderParameter = {} as any;
             const localVarQueryParameter = {} as any;
+
+            // authentication authentication required
+            if (configuration && configuration.apiKey) {
+                const localVarApiKeyValue = typeof configuration.apiKey === 'function'
+                    ? await configuration.apiKey("apiKey")
+                    : await configuration.apiKey;
+                localVarHeaderParameter["apiKey"] = localVarApiKeyValue;
+            }
 
             const query = new URLSearchParams(localVarUrlObj.search);
             for (const key in localVarQueryParameter) {
