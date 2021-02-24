@@ -9,5 +9,6 @@
  * https://github.com/swagger-api/swagger-codegen.git
  * Do not edit the class manually.
  */ export * from './apis/airports-api';
+export * from './apis/auth-api';
 export * from './apis/routes-api';
 export * from './apis/training-schedule-api';

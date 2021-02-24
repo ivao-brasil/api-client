@@ -23,5 +23,6 @@ Object.defineProperty(exports, "__esModule", { value: true });
  * https://github.com/swagger-api/swagger-codegen.git
  * Do not edit the class manually.
  */ __exportStar(require("./apis/airports-api"), exports);
+__exportStar(require("./apis/auth-api"), exports);
 __exportStar(require("./apis/routes-api"), exports);
 __exportStar(require("./apis/training-schedule-api"), exports);

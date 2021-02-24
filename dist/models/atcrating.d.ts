@@ -9,6 +9,21 @@
  * https://github.com/swagger-api/swagger-codegen.git
  * Do not edit the class manually.
  */
-export * from "./api";
-export * from "./configuration";
-export * from "./models";
+/**
+ *
+ * @export
+ * @enum {string}
+ */
+export declare enum ATCRating {
+    NONE = 0,
+    NOTATC = 1,
+    AS1 = 2,
+    AS2 = 3,
+    AS3 = 4,
+    ADC = 5,
+    APC = 6,
+    ACC = 7,
+    SEC = 8,
+    SAI = 9,
+    CAI = 10
+}

@@ -9,6 +9,21 @@
  * https://github.com/swagger-api/swagger-codegen.git
  * Do not edit the class manually.
  */
-export * from "./api";
-export * from "./configuration";
-export * from "./models";
+/**
+ *
+ * @export
+ * @enum {string}
+ */
+export declare enum PilotRating {
+    NONE = 0,
+    NOTPILOT = 1,
+    FS1 = 2,
+    FS2 = 3,
+    FS3 = 4,
+    PP = 5,
+    SPP = 6,
+    CP = 7,
+    ATP = 8,
+    SFI = 9,
+    CFI = 10
+}
