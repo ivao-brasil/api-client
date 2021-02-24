@@ -11,6 +11,21 @@
  * https://github.com/swagger-api/swagger-codegen.git
  * Do not edit the class manually.
  */
-export * from "./api";
-export * from "./configuration";
-export * from "./models";
+/**
+ *
+ * @export
+ * @enum {string}
+ */
+export enum ATCRating {
+  NONE,
+  NOTATC,
+  AS1,
+  AS2,
+  AS3,
+  ADC,
+  APC,
+  ACC,
+  SEC,
+  SAI,
+  CAI,
+}
